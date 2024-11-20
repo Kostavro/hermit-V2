@@ -20,14 +20,6 @@
 			{{- end }}
 			{{- with .Site.Params.socialLinks }}
 			<div id="home-links">
-				<style>
-					#home-social {
-					  display: flex;
-					  justify-content: center;
-					  align-items: center;
-					  gap: 5px;
-					}
-				  </style>
 				{{ partialCached "social-icons.html" . }}
 			</div>
 			{{- end }}

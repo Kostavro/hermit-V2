@@ -32,3 +32,10 @@
     bottom: 8em;
   }
 }
+
+#home-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px; /* Adjust the value as needed */
+}
